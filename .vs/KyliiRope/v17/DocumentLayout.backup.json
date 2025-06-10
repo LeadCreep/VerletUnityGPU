@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\verletimplementation\\verletcollidebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\verletimplementation\\verletcollidebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\slicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\slicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|c:\\users\\stagiaire\\desktop\\applications\\tests\\kyliirope\\assets\\kyliirope\\shaders\\compute\\verletsimulator.compute||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\shaders\\compute\\verletsimulator.compute||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\verletimplementation\\verletsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\verletimplementation\\verletsimulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\rope.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\chain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\chain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\assets\\kyliirope\\scripts\\cloth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDA50A21-FDDC-0D07-9C77-C4DDDA1C6597}|Assembly-CSharp.csproj|solutionrelative:assets\\kyliirope\\scripts\\cloth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 274,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Chain.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Chain.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\Chain.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Chain.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\Chain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:25:49.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cloth.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Cloth.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\Cloth.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Cloth.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\Cloth.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwEkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:25:30.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Slicer.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Slicer.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\Slicer.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Slicer.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\Slicer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T09:35:04.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VerletCollideBase.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletCollideBase.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletCollideBase.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletCollideBase.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletCollideBase.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAkwMQAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:17:37.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rope.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Rope.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\Rope.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\Rope.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\Rope.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:37:51.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerletSimulator.cs",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletSimulator.cs",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletSimulator.cs",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletSimulator.cs",
+              "RelativeToolTip": "Assets\\KyliiRope\\Scripts\\VerletImplementation\\VerletSimulator.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswI4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:36:49.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerletSimulator.compute",
+              "DocumentMoniker": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Shaders\\Compute\\VerletSimulator.compute",
+              "RelativeDocumentMoniker": "Assets\\KyliiRope\\Shaders\\Compute\\VerletSimulator.compute",
+              "ToolTip": "C:\\Users\\Stagiaire\\Desktop\\Applications\\Tests\\KyliiRope\\Assets\\KyliiRope\\Shaders\\Compute\\VerletSimulator.compute",
+              "RelativeToolTip": "Assets\\KyliiRope\\Shaders\\Compute\\VerletSimulator.compute",
+              "ViewState": "AgIAAK4AAAAAAAAAAIBJwOoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-05-16T12:42:05.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
