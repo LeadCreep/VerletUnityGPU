@@ -21,7 +21,7 @@ namespace Kylii.Rope
 
 		[SerializeField, Range(1, 256)] protected uint nodeCount = 128;
 		[SerializeField, Range(0.01f, 1f)] protected float edgeLength = 0.1f;
-		protected float oldEdgeLength = 0.1f;
+		protected float oldEdgeLength;
 
 		protected uint edgeCount;
 
@@ -46,7 +46,6 @@ namespace Kylii.Rope
 		[SerializeField] private bool destroyOnCut = false;
 		[SerializeField] private bool cutOnCollide = false;
 		private float cutCooldown = 0.2f;
-		//[SerializeField] private LayerMask cutLayerMask;
 		protected bool isCut = false;
 		#endregion
 
@@ -73,6 +72,7 @@ namespace Kylii.Rope
 				};
 			}
 			colliderBuffer = new Collider[COLLIDER_BUFFER_SIZE];
+			oldEdgeLength = edgeLength;
 		}
 
 		protected virtual void Start()
@@ -157,11 +157,6 @@ namespace Kylii.Rope
 				Node a = nodes[e.nodeA];
 				Node b = nodes[e.nodeB];
 				Gizmos.DrawLine(a.position, b.position);
-			}
-
-			for (int i = 0; i < nodeCount; i++)
-			{
-				//Gizmos.DrawSphere(nodes[i].position, 0.1f);
 			}
 		}
 		#endregion
@@ -274,17 +269,17 @@ namespace Kylii.Rope
 		{
 			if (set)
 			{
-				value |= ( 1U << index );
+				value |= (1U << index);
 			}
 			else
 			{
-				value &= ~( 1U << index );
+				value &= ~(1U << index);
 			}
 		}
 
 		public static bool GetBit(uint value, int index)
 		{
-			return ( value & ( 1U << index ) ) != 0;
+			return (value & (1U << index)) != 0;
 		}
 
 		public void Cut(int segment = -1)

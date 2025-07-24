@@ -67,19 +67,22 @@ namespace Kylii.Rope
 			compute.Dispatch(kernel, Mathf.FloorToInt(nodesCount / (int)tx) + 1, (int)ty, (int)tz);
 		}
 
-		public void Solve(ComputeShader compute)
+		public void Solve(ComputeShader compute, bool updateBuffers = true)
 		{
 			int kernel = compute.FindKernel("Solve");
 			compute.GetKernelThreadGroupSizes(kernel, out uint tx, out uint ty, out uint tz);
 
-			compute.SetBuffer(kernel, "_NodesRead", nodeBufferRead);
-			compute.SetBuffer(kernel, "_Nodes", nodeBufferWrite);
-			compute.SetInt("_NodesCount", nodesCount);
+			if (updateBuffers)
+			{
+				compute.SetBuffer(kernel, "_NodesRead", nodeBufferRead);
+				compute.SetBuffer(kernel, "_Nodes", nodeBufferWrite);
+				compute.SetInt("_NodesCount", nodesCount);
 
-			compute.SetBuffer(kernel, "_Edges", edgeBuffer);
-			compute.SetInt("_EdgesCount", edgesCount);
+				compute.SetBuffer(kernel, "_Edges", edgeBuffer);
+				compute.SetInt("_EdgesCount", edgesCount);
 
-			compute.SetVector("_DirectionMultiply", multiplyDirections);
+				compute.SetVector("_DirectionMultiply", multiplyDirections);
+			}
 
 			compute.Dispatch(kernel, Mathf.FloorToInt(nodesCount / (int)tx) + 1, (int)ty, (int)tz);
 
