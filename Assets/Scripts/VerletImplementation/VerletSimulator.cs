@@ -45,10 +45,6 @@ namespace Kylii.Rope
 
         public void SetNodes(Node[] nodes)
         {
-            //if (nodes.Length != nodesCount)
-            //{
-            //	throw new ArgumentException($"Node count mismatch: expected {nodesCount}, got {nodes.Length}");
-            //}
             nodeBufferRead.SetData(nodes);
             nodeBufferWrite.SetData(nodes);
         }
